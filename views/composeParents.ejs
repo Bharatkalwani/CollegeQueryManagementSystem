@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Parents COMPOSE</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type = "text/javascript" >
+    function preventBack()
+     {
+          console.log("runs")
+         window.history.forward(); }
+   
+   setTimeout("preventBack()", 0);
+   window.onunload = function () { null };
+   
+  
+   </script>   
+  
+  
+ <% function validateForm() { %>
+  <%  console.log("fuction runs")  %>
+  
+  <% }  %>
+
+  <%  console.log("fuction runs")  %>
+
+  <nav class="navbar navbar-default ">
+    <div class="container " >
+      <div class="navbar-header">
+        <p class="navbar-brand" style="color: indigo;">PARENTS COMPOSE </p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- 6 -->
+          <li id="home" ><a class="nav-link active li" href="/getParentComplains " style="color: indigo;"><b>HOME</b></a></li>
+          <li ><a class="nav-link active li" href="/composeParents" style="color: indigo; "><b>COMPOSE</b></a></li>
+          <li ><a class="nav-link active li" href="/logout" style="color: indigo;"><b>LOGOUT</b></a></li>
+
+
+        </ul>
+    </div>
+  </nav>
+  <style>
+     .li:hover {
+            background-color: aquamarine;
+  }
+  </style>
+
+  <body class="parent-color">
+    <div class="container">
+
+
+<form  id='myform' method="post" action ="/composeParents"   >
+
+<h4>Title</h4>
+<input type="text" class="form-control" name="postTitle" required ><br>
+
+<h4>Probelm</h4>
+<textarea  rows="5" cols="50"  class="form-control" name="postContent" required></textarea><br>
+
+<h4>Mobile Number</h4>
+<input type="number" class="form-control" name="mobile" required ><br>
+
+<!-- value="Submit" -->
+<button type="submit"  class="btn btn-primary"  onclick="validateForm()">Proced</button>
+</form>
+</div>
+</body>
+</html>

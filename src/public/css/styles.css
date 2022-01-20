@@ -1,0 +1,168 @@
+.border
+{
+
+  box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 350px;
+        height: 250px;
+        border: 20px solid #969696;
+        background:mediumspringgreen;
+        margin: 30px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;;
+        border: 10px solid #969696;
+}
+/* #d9dbda; */
+.li:hover {
+  background-color: aquamarine;
+}
+
+.stu-reg{
+
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.teac-reg{
+  margin-top: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.pare-reg{
+
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.admin-reg{
+  margin-top: 12px;
+}
+
+.welcm-admin{
+  padding-left: 450px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+.created{
+
+  padding-left: 580px;
+}
+
+.but-stu
+{
+margin-left: 440px;
+margin-right: 60px;
+margin-bottom: 20px;
+padding-left: 30px;
+  padding-right: 30px;
+}
+
+.but-teac
+{
+margin-bottom: 20px;
+padding-left: 30px;
+  padding-right: 42px;
+}
+
+.but-paren{
+
+  margin-left: 440px;
+margin-right: 60px;
+margin-bottom: 20px;
+padding-left: 30px;
+  padding-right: 42px;
+}
+
+.but-admin{
+
+  margin-bottom: 20px;
+}
+.head
+{
+padding-left: 100px;
+padding-top: 10px;
+color:lavender;
+}
+
+.img{
+
+  padding-top: 30px; 
+  margin-bottom: 60px;
+  height: 200px;
+  width: 220px;
+  margin-left: 540px;
+  
+}
+
+body {
+  background-color: #E8ECEF;
+}
+
+.body-color22{
+   background-color: #CCFFFF 
+  /* background-color:antiquewhite */
+}
+
+.body-color{
+  /* background-color: #CCFFFF */
+  background-color:antiquewhite
+}
+
+
+.centered {
+    padding-top: 100px;
+    text-align: center;
+   
+}
+.mar{
+  padding-left: 30px;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.margin{
+	margin-left: 50px;
+}
+
+.cen{
+  margin-left: 30px;;
+}
+
+.fixed-top{
+	position: fixed;
+	 margin-left:15px;
+	 
+}
+
+.parent-color{
+
+  background-color:antiquewhite ;
+}
+
+.admin-admin{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 50px;
+  margin-top: 8px;;
+}
+
+.nav-color{
+  color: indigo;
+}
