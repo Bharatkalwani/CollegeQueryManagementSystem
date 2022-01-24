@@ -44,10 +44,9 @@ exports.isAuth=async(req,res,next)=>{
     if(req.session.isAuth){
         next();
     }
-    else{
+    else
         res.redirect('/home')
-      //  res.render("home");
-    }    
+    
 }
 
 
