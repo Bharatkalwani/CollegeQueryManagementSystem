@@ -40,7 +40,7 @@ exports.generateToken=async()=>{
 
 
 exports.isAuth=async(req,res,next)=>{
-    console.log("function runs",req.session.isAuth)
+    console.log("function runs",req.session.isAuth)  
     if(req.session.isAuth){
         next();
     }
